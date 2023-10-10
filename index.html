@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="title">
+            <h1>Calculadora de Área y Perímetro de Rectángulo</h1>
+        </div>
+        <div class="data">
+          <div>
+            <label for="base">Longitud: </label>
+            <input type="number" name="base" id="base" />
+          </div>
+          <div>
+            <label for="altura"> Ancho: </label>
+            <input type="number" name="altura" id="altura" />
+          </div>
+          <button type="button" class="btn-calculate" onclick="calcula()">Calcular Area y Perímetro</button>
+          <span id="area"></span>
+          <span id="perimetro"></span>
+        </div>
+        <script src="js/script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

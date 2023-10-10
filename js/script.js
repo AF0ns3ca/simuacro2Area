@@ -1,6 +1,6 @@
 /**
  * @author Alvaro Fonseca Hernandez
- * @GitHub
+ * @GitHub https://github.com/AF0ns3ca/simuacro2Area.git
  */
 
 const calcula = () => {
